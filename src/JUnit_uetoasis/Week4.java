@@ -15,7 +15,7 @@ public class Week4 {
   }
 
   public static String calculateBMI(double weight, double height) {
-    double BMI = Math.round((weight) / (height * height) * 10.0) / 10.0;
+    double BMI = Math.round(((weight) / (height * height)) * 10.0) / 10.0;
     if (BMI <= 18.5)
       return "Thiếu cân";
     else if (BMI <= 22.9)

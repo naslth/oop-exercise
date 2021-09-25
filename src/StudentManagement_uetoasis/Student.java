@@ -10,32 +10,32 @@ public class Student {
     return this.name;
   }
 
-  public void setName(String _name) {
-    this.name = _name;
+  public void setName(String name) {
+    this.name = name;
   }
 
   public String getId() {
     return this.id;
   }
 
-  public void setId(String _id) {
-    this.id = _id;
+  public void setId(String id) {
+    this.id = id;
   }
 
   public String getGroup() {
     return this.group;
   }
 
-  public void setGroup(String _group) {
-    this.group = _group;
+  public void setGroup(String group) {
+    this.group = group;
   }
 
   public String getEmail() {
     return this.email;
   }
 
-  public void setEmail(String _email) {
-    this.email = _email;
+  public void setEmail(String email) {
+    this.email = email;
   }
 
   String getInfo() {
